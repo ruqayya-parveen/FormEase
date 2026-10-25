@@ -34,7 +34,15 @@
       "Bash(npm run:*)",
       "Bash(for i:*)",
       "Bash(do curl:*)",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(grep -E \"\\\\.env$|node_modules\")",
+      "Bash(git check-ignore:*)",
+      "Bash(ssh -T git@github.com-personal)",
+      "Bash(curl -fsSL https://devrelay.com/install.sh)",
+      "Bash(sh)",
+      "Bash(ls server/*)",
+      "mcp__devrelay-gateway__mlh_connection_status",
+      "mcp__devrelay-gateway__connect_mlh_account"
     ]
   }
 }
