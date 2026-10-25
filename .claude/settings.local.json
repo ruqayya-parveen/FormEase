@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Read(//Users/ruqayyaparveen/**)",
+      "Bash(xcodebuild -version)",
+      "Bash(xcrun simctl:*)",
+      "Bash(/tmp/palette.py:*)",
+      "Bash(python3 /tmp/palette.py)",
+      "Bash(sed -n 1,36p app/theme/colorsDark.ts)",
+      "Bash(python3 -:*)",
+      "Bash(sed -i '' 's/#0F9D8A/#0B7F6F/' app/theme/colors.ts app/theme/colorsDark.ts)",
+      "Bash(grep -n \"0B7F6F\" app/theme/*.ts)",
+      "Bash(sed -n 1,40p app/utils/formatDate.ts)",
+      "Bash(sed -n 80,140p app/components/EmptyState.tsx)",
+      "Bash(sed -n 140,215p app/components/EmptyState.tsx)",
+      "Bash(sed -n 40,70p app/utils/formatDate.ts)",
+      "Bash(sed -i '' 's/const \\\\$intro: ThemedStyle<ViewStyle>/const $intro: ThemedStyle<TextStyle>/; s/import { View, ViewStyle } from \"\"react-native\"\"/import { TextStyle, View, ViewStyle } from \"\"react-native\"\"/' app/screens/FormSelectionScreen.tsx)",
+      "Bash(app/components/FormNotFound.tsx:*)",
+      "Bash(yarn --version)",
+      "Bash(curl -s -m 10 -o /dev/null -w \"%{http_code}\\\\n\" https://registry.yarnpkg.com/react)",
+      "Bash(ps -o pid,etime,command -p 4300)",
+      "Bash(yarn -s compile)",
+      "Bash(yarn -s eslint app --fix)",
+      "Bash(yarn -s test)",
+      "Bash(CI=1 npx expo export --platform ios --output-dir /tmp/formease-export)",
+      "Bash(npx expo:*)",
+      "Bash(grep -E \"^react-native-web$|^react-dom$\")",
+      "Bash(lsof -iTCP:3000 -sTCP:LISTEN)",
+      "Bash(curl -s -m 3 localhost:3000/health)",
+      "Bash(grep -E \"^\\\\.env$\")",
+      "Bash(npm start:*)",
+      "Bash(curl -s -m 60 -w '\\\\n[%{http_code}]\\\\n' -X POST localhost:3000/api/ai/explain-field -H 'content-type: application/json' -d '{\"\"\"\"formType\"\"\"\":\"\"\"\"banking\"\"\"\",\"\"\"\"fieldLabel\"\"\"\":\"\"\"\"Annual income\"\"\"\",\"\"\"\"fieldHelpText\"\"\"\":\"\"\"\"Before tax\"\"\"\"}')",
+      "Bash(npm run:*)",
+      "Bash(for i:*)",
+      "Bash(do curl:*)",
+      "Bash(done)"
+    ]
+  }
+}
